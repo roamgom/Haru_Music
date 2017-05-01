@@ -1,7 +1,7 @@
 from slacker import Slacker
 import json
 
-with open ('config.json', 'r') as cf:
+with open ('config\config.json', 'r') as cf:
     config = json.load(cf)
 
 api_key = config['CI']['api_token']
@@ -13,5 +13,4 @@ slack.chat.post_message('#gom_lab', 'Hello! Testing!')
 
 response = slack.users.list()
 users = response.body['members']
-
 
