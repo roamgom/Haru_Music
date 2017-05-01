@@ -2,7 +2,7 @@
   "Message" : {
     "say_hi" : "Tired of your Day? Music for you based on Soundcloud",
     "say_music" : "Music For ",
-    "say_today" : " Today"
+    "say_today" : " Today : "
   },
   "Music" : {
     "Tired" : "Tired People",

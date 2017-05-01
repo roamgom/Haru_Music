@@ -1,0 +1,45 @@
+{
+  "Calm" : {
+    "Jazz" : {
+      "Limes" : {
+                "Hooplah" : "https://soundcloud.com/limes-3/hooplah",
+                "Blase" : "https://soundcloud.com/limes-3/blase",
+                "Selfless" : "https://soundcloud.com/limes-3/selfless"
+      },
+      "DemiCat" : {
+                "Swingin' with a cat" : "https://soundcloud.com/ohmazingrecs/01-demicat-swingin-with-a-cat"
+      },
+      "Glen Check" : {
+                "I've got this feeling" : "https://soundcloud.com/inthecabinett/glen-check-ive-got-this",
+                "Me & U (Remix Version)" : "https://soundcloud.com/glen-check/cassie-me-u-glen-check-summer-remix"
+      }
+    }
+  },
+
+  "Excite" :{
+    "EDM" : {
+      "MonsterCat" : {
+        "Feint" : {
+                "Snake Eyes" : "https://soundcloud.com/monstercat/feint-snake-eyes-feat-coma",
+                "Arrowhead" : "https://soundcloud.com/feintdnb/arrowhead-1"
+        },
+        "Hyper Potions": {
+                "Surf" : "https://soundcloud.com/hyperpotions/surf",
+                "Checkpoint" : "https://soundcloud.com/hyperpotions/checkpoint",
+                "Matches" : "https://soundcloud.com/hyperpotions/matches"
+        }
+      }
+    }
+  },
+
+  "Tired" : {
+    "Beat" : {
+      "Vibez" : {
+                "Another Rainy Day" : "https://soundcloud.com/gvibez/another-rainy-day"
+      },
+      "Taiko" : {
+                "Reflection" : "https://soundcloud.com/taikomusic/reflection"
+      }
+    }
+  }
+}
