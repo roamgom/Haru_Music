@@ -16,9 +16,8 @@
     }
   },
 
-  "Excite" :{
+  "Excited" :{
     "EDM" : {
-      "MonsterCat" : {
         "Feint" : {
                 "Snake Eyes" : "https://soundcloud.com/monstercat/feint-snake-eyes-feat-coma",
                 "Arrowhead" : "https://soundcloud.com/feintdnb/arrowhead-1"
@@ -27,7 +26,6 @@
                 "Surf" : "https://soundcloud.com/hyperpotions/surf",
                 "Checkpoint" : "https://soundcloud.com/hyperpotions/checkpoint",
                 "Matches" : "https://soundcloud.com/hyperpotions/matches"
-        }
       }
     }
   },
