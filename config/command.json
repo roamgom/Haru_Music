@@ -1,12 +1,12 @@
 {
   "Message" : {
-    "say_hi" : "Tired of your Day? Music for you based on Soundcloud",
-    "say_music" : "Music For",
-    "say_today" : "People Today"
+    "say_hi" : "Haru Music\n",
+    "say_for" : "For ",
+    "say_today" : "Today"
   },
   "Music" : {
     "Tired" : "Tired People",
     "Excited" : "Exciting Moments",
-    "Calm" : "For having your own time"
+    "Calm" : "Having your own time"
   }
 }
