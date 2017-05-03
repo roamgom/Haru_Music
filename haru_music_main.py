@@ -1,3 +1,4 @@
+# haru_music_main
 from slacker import Slacker
 from slackclient import SlackClient
 import json
@@ -33,5 +34,9 @@ link_song = (music[feel_random][genre_random][artist_random][song_random])
 hi_comment = command['Message']['say_for'] + '\'', command['Music'][feel_random], '\' ' + command['Message']['say_today']
 song_info = 'Genre :', genre_random, ' #Artist :', artist_random, ' #Song :', song_random + '\n'
 
-#slack.chat.unfurl(channel='C4CE56L2D', token=api_key, unfurls=link_song)
-slack.chat.post_message(send_channel, text=link_song, attachments=[{"pretext": ''.join(hi_comment), "text": song_info }], unfurl_links='true', username="Haru_Music", icon_url="")
+
+#slack.chat.post_message(send_channel, text=link_song, attachments=[{"pretext": ''.join(hi_comment), "text": song_info}], unfurl_links='true', username="Haru_Music")
+slack.chat.post_message(send_channel, text=link_song, attachments=[{"pretext": ''.join(hi_comment), "text": song_info}], unfurl_links='true', username="Haru_Music", icon_url="")
+# Don't know why... if i don't add icon_url, the player doesn't come up...
+
+
