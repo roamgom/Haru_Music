@@ -10,8 +10,7 @@ with open ('config\command.json', 'r') as cmd:
 with open ('MediaS\music_link.json', 'r') as ml:
     music = json.load(ml)
 # Load Bot_Config, Cmd, Music from DIR
-with open ('MediaS\soundcloud_struct.json', 'r') as sc_info:
-    sc_url = json.load(sc_info)
+
 
 
 api_key = config['CI']['api_token']
@@ -31,8 +30,8 @@ song_random = random.choice(list(music[feel_random][genre_random][artist_random]
 link_song = (music[feel_random][genre_random][artist_random][song_random])
 # Comments/Command/Link For Each Message
 
-hi_comment = command['Message']['say_hi'] + command['Message']['say_for'] + '\'', command['Music'][feel_random], '\' ' + command['Message']['say_today']
+hi_comment = command['Message']['say_for'] + '\'', command['Music'][feel_random], '\' ' + command['Message']['say_today']
 song_info = 'Genre :', genre_random, ' #Artist :', artist_random, ' #Song :', song_random + '\n'
 
 #slack.chat.unfurl(channel='C4CE56L2D', token=api_key, unfurls=link_song)
-slack.chat.post_message(send_channel, text=''.join(hi_comment), attachments=[{"pretext": '', "text": song_info, "thumburl":link_song}], username="Haru_Music", )
+slack.chat.post_message(send_channel, text=link_song, attachments=[{"pretext": ''.join(hi_comment), "text": song_info }], unfurl_links='true', username="Haru_Music", icon_url="")
