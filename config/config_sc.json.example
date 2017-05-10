@@ -1,0 +1,9 @@
+{
+  "CI" : {
+    "api_token": "Slack_API_Token",
+    "incoming_webhook":{
+      "hook_url":"Your_Incoming_Webhook_URL",
+      "channel":"#Channel"
+    }
+  }
+}
